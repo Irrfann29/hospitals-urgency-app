@@ -36,11 +36,11 @@ uvicorn main:app --reload
 
 ### API Routes
 
-POST /requests → Submit a new emergency request
+`POST /requests` → Submit a new emergency request
 
-GET /requests → Get all emergency requests
+`GET /requests` → Get all emergency requests
 
-📦 Folder Structure
+### 📦 Folder Structure
 
 frontend/  → React UI
 
