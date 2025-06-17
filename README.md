@@ -16,16 +16,22 @@ A prototype of an app to help hospitals request urgent medical resources like bl
 ### 1. Clone the repo
 
 git clone https://github.com/Irrfann29/hospitals-urgency-app.git
+
 cd hospitals-urgency-app
 
 ### 2. Frontend Setup (React)
 cd frontend
+
 npm install
+
 npm start
 
 ### 3. Backend Setup (FastAPI)
+
 cd backend
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 
 ### API Routes
